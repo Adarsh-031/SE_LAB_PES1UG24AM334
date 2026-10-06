@@ -1,0 +1,7 @@
+[project]
+name = "lab4-pes1ug24am334"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
