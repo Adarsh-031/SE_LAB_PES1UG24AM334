@@ -1,0 +1,12 @@
+[project]
+name = "l5-30-electricity-bill"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bandit>=1.9.4",
+    "defusedxml>=0.7.1",
+    "flake8>=7.4.1",
+    "pylint>=4.1.3",
+]
