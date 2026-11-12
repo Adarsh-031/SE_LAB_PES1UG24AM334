@@ -1,0 +1,20 @@
+[project]
+name = "se-lab-7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adarsha.E", email = "adarsh.edurkala33@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "hypothesis>=6.170.15",
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+se-lab-7 = "se_lab_7:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
